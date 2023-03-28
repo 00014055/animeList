@@ -4,7 +4,8 @@ const port = 3000
 
 //const fs = require('fs')
 
-app.set('view engine', 'pug')
+app.set('view engine', 'pug') 
+app.use('/static', express.static('public/styles'))
 //app.use(express.urlencodded({exttended:false}))
 
 
