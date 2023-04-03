@@ -14,13 +14,14 @@ block content
 
 	.section.flex 
 		.list
-			if animes
-				each anime in animes
-					(href='/${ anime.id }/update') 
-					p Name #{anime.name} 
-					p date #{anime.date}
-						button.delete(href='/${ anime.id }') Update
+			for anime in animes
+				p Name: #{anime.name} 
+				p Date: #{anime.date}
+				p Type: #{anime.type}
+				p Genres: #{anime.genres}
+				p Episodes: #{anime.episodes}
+				p Comment: #{anime.comment}
+						
 						button.delete(href='/${ anime.id }') Delete
 						
-			else
-				p No any anime watched yet	
+			

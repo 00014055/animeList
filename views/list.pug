@@ -17,7 +17,9 @@ block content
 				each anime in animes
 					a(href= anime.id) #{anime.name} / #{anime.date}
 						
-						button.btn.delete(href='/${ anime.id }') Delete
+						p
+							button.btn.delete(href='/${ anime.id }') Delete
+							button.btn.delete(href='/${ anime.id }/update') Update
 						
 			else
 				p No any anime watched yet	

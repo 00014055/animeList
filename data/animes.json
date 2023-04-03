@@ -1,1 +1,49 @@
-[{"id":"1hn41c9klfzw830d","name":"Clannad: After Story","date":" Oct 3, 2008 to Mar 27, 2009","type":"TV","genres":"Drama, Romance, Supernatural","episodes":"24","comment":"Clannad: After Story, the sequel to the critically acclaimed slice-of-life series Clannad, begins after Tomoya Okazaki and Nagisa Furukawa graduate from high school. Together, they experience the emotional rollercoaster of growing up. Unable to decide on a course for his future, Tomoya learns the value of a strong work ethic and discovers the strength of Nagisa's support. Through the couple's dedication and unity of purpose, they push forward to confront their personal problems, deepen their old relationships, and create new bonds.","watched":true},{"id":"1hn41u8lg0f9v9k","name":"Gintama","date":"Spring 2006","type":"TV","genres":" Action, Comedy, Sci-Fi","episodes":"201","comment":"Edo is a city that was home to the vigor and ambition of samurai across the country. However, following feudal Japan's surrender to powerful aliens known as the \"Amanto,\" those aspirations now seem unachievable. With the once-influential shogunate rebuilt as a puppet government, a new law is passed that promptly prohibits all swords in public."},{"id":"1hn41u8lg0fbagc","name":"Your Name","date":"Aug 26, 2016","type":"Movie","genres":" Drama, Supernatural","episodes":"1","comment":"Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a high school student while juggling his part-time job and hopes for a future in architecture."},{"id":"1hn41u8lg0fcjjn","name":"Cowboy Bebop","date":"Spring 1998","type":"TV","genres":"Action, Award Winning, Sci-Fi","episodes":"26","comment":"Crime is timeless. By the year 2071, humanity has expanded across the galaxy, filling the surface of other planets with settlements like those on Earth. These new societies are plagued by murder, drug use, and theft, and intergalactic outlaws are hunted by a growing number of tough bounty hunters."},{"id":"1hn41u8lg0fdu3i","name":"Vinland Saga","date":"Summer 2019","type":"TV","genres":"Action, Adventure, Drama","episodes":"24","comment":"Young Thorfinn grew up listening to the stories of old sailors that had traveled the ocean and reached the place of legend, Vinland. It's said to be warm and fertile, a place where there would be no need for fighting—not at all like the frozen village in Iceland where he was born, and certainly not like his current life as a mercenary. War is his home now. Though his father once told him, \"You have no enemies, nobody does. There is nobody who it's okay to hurt,\" as he grew, Thorfinn knew that nothing was further from the truth."}]
+[
+  {
+    "id": "1hn41c9klfzw830d",
+    "name": "Clannad: After Story",
+    "date": " Oct 3, 2008 to Mar 27, 2009",
+    "type": "TV",
+    "genres": "Drama, Romance, Supernatural",
+    "episodes": "24",
+    "comment": "Clannad: After Story, the sequel to the critically acclaimed slice-of-life series Clannad, begins after Tomoya Okazaki and Nagisa Furukawa graduate from high school. Together, they experience the emotional rollercoaster of growing up. Unable to decide on a course for his future, Tomoya learns the value of a strong work ethic and discovers the strength of Nagisa's support. Through the couple's dedication and unity of purpose, they push forward to confront their personal problems, deepen their old relationships, and create new bonds.",
+    "watched": true
+  },
+
+  {
+    "id": "1hn41u8lg0f9v9k",
+    "name": "Gintama",
+    "date": "Spring 2006",
+    "type": "TV",
+    "genres": " Action, Comedy, Sci-Fi",
+    "episodes": "201",
+    "comment": "Edo is a city that was home to the vigor and ambition of samurai across the country. However, following feudal Japan's surrender to powerful aliens known as the \"Amanto,\" those aspirations now seem unachievable. With the once-influential shogunate rebuilt as a puppet government, a new law is passed that promptly prohibits all swords in public."
+  },
+  {
+    "id": "1hn41u8lg0fbagc",
+    "name": "Your Name",
+    "date": "Aug 26, 2016",
+    "type": "Movie",
+    "genres": " Drama, Supernatural",
+    "episodes": "1",
+    "comment": "Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a high school student while juggling his part-time job and hopes for a future in architecture."
+  },
+  {
+    "id": "1hn41u8lg0fcjjn",
+    "name": "Cowboy Bebop",
+    "date": "Spring 1998",
+    "type": "TV",
+    "genres": "Action, Award Winning, Sci-Fi",
+    "episodes": "26",
+    "comment": "Crime is timeless. By the year 2071, humanity has expanded across the galaxy, filling the surface of other planets with settlements like those on Earth. These new societies are plagued by murder, drug use, and theft, and intergalactic outlaws are hunted by a growing number of tough bounty hunters."
+  },
+  {
+    "id": "1hn41u8lg0fdu3i",
+    "name": "Vinland Saga",
+    "date": "Summer 2019",
+    "type": "TV",
+    "genres": "Action, Adventure, Drama",
+    "episodes": "24",
+    "comment": "Young Thorfinn grew up listening to the stories of old sailors that had traveled the ocean and reached the place of legend, Vinland. It's said to be warm and fertile, a place where there would be no need for fighting—not at all like the frozen village in Iceland where he was born, and certainly not like his current life as a mercenary. War is his home now. Though his father once told him, \"You have no enemies, nobody does. There is nobody who it's okay to hurt,\" as he grew, Thorfinn knew that nothing was further from the truth."
+  }
+]

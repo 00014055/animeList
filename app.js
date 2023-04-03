@@ -92,6 +92,24 @@ app.get('/update', (req, res) => {
  	res.render('/update', {})
 })
 
+app.get('/:id/update', (req, res) => {
+	const id = req.params.id
+
+	fs.readFile('./data/animes.json', (err, data) => {
+		if (err) throw err
+
+		const animes = JSON.parse(data)
+
+		const filteredAnime = animes.filter(anime => anime.id == id)
+
+		fs.writeFile('./data/animes.json', JSON.stringify(filteredAnime), (err) => {
+			if (err) throw err
+
+			res.render('update', { animes: anime})
+
+		})
+	})
+})
 
 // app.get('/:id/update', (req, res) => {
 // 	const id = req.params.id

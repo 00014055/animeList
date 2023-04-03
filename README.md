@@ -4,7 +4,7 @@ The application is a blog application where users can add, review, delete and up
 ### Installation
 To run the application locally, follow these steps:
 
-1. Clone the repository from [GitHub](https://github.com/00014055/node)
+1. Clone the repository from [GitHub](https://github.com/00014055/animeList.git)
 2. Install dependencies using the following command:
 
 
@@ -27,6 +27,6 @@ The application is built using Node.js as a base web framework and uses the foll
 
 
 ### Public Repo and Hosted Application
-Link to the public repo: [GitHub](https://github.com/00014055/node)
+Link to the public repo: [GitHub](https://github.com/00014055/animeList.git)
 Link to the hosted application: [Glitch](https://glitch.com/)
 
