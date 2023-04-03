@@ -28,5 +28,5 @@ The application is built using Node.js as a base web framework and uses the foll
 
 ### Public Repo and Hosted Application
 Link to the public repo: [GitHub](https://github.com/00014055/animeList.git)
-Link to the hosted application: [Glitch](https://glitch.com/)
+Link to the hosted application: [Glitch](https://grizzly-vintage-stygimoloch.glitch.me/)
 
