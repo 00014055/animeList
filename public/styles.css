@@ -1,0 +1,168 @@
+@import
+url('http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js');
+
+:root {
+	font-size: 18px;
+	font-family: 'Alkatra', cursive;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.logo > a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.baseline {
+	align-items: baseline;
+}
+
+.section, h1 {
+	width: 1000px;
+	margin: 0 auto 2rem auto;
+}
+
+.nav > a {
+	margin-right: 1rem;
+	color: black;
+	text-decoration: none;
+}
+
+.nav > a:hover {
+	border-bottom: 1px solid #ccc;
+}
+
+.list,
+.detail {
+	width: 50%;
+	border: 1px solid #ccc;
+	padding: 1.5rem;
+}
+
+.list > a {
+	display: block;
+	width: 100%;
+	color: black;
+	font-size: 1.3rem;
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	margin-bottom: 3rem;
+	text-decoration: none;
+}
+
+.list > a:hover {
+	background-color: #eee;
+}
+
+.delete {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	outline: 2px solid #eee;
+	position: relative;
+	overflow: hidden;
+	transition: color 1s;
+	padding: 10px 30px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+.delete:hover {
+	color: #833ab4;
+}
+
+.delete::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -10px;
+	width: 0;
+	height: 100%;
+	background-color: #eee;
+	transform: skewX(50deg);
+	z-index: -1;
+	transition: width 1s;
+}
+
+.delete:hover::before {
+	width: 100%;
+} 
+
+.form {
+	width: 50%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	padding: 0.5rem;
+}
+
+.input {
+	display: block;
+	width: 100%;
+	font-size: 1rem;
+	font-family: inherit;
+	margin-bottom: 1rem;
+	padding: 0.5rem;
+
+}
+
+.btn {
+	width: fit-content;
+	font-size: 1rem;
+}
+
+
+.detail {
+	display: none;
+	background-color: #FFCCFF;
+	background: linear-gradient (to right, #833ab4, #fd1d1d, #fcb045);
+	animation: animate-background 10s infinite ease-in-out;
+}
+
+@keyframes animate-background {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+.list:hover ~ .detail {
+  display: block;
+} 
+
+.error {
+	text-align: center;
+	color: red;
+	font-size: 1.4rem;
+	border: 1px solid red;
+	padding: 10px;
+	width: 1000px;
+	margin: 0 auto 2rem auto;
+}
+
+.success {
+	text-align: center;
+	color: green;
+	font-size: 1.4rem;
+	border: 1px solid green;
+	padding: 10px;
+	width: 1000px;
+	margin: 0 auto 1rem auto;
+
+}

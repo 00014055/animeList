@@ -1,0 +1,26 @@
+extends layout.pug
+
+
+block content
+
+	if error
+		p Please fill the inputs
+
+	if deleted
+		p.success Deleted
+
+	if created
+		p.success Anime added
+
+	.section.flex 
+		.list
+			if animes
+				each anime in animes
+					(href='/${ anime.id }/update') 
+					p Name #{anime.name} 
+					p date #{anime.date}
+						button.delete(href='/${ anime.id }') Update
+						button.delete(href='/${ anime.id }') Delete
+						
+			else
+				p No any anime watched yet	

@@ -1,18 +1,19 @@
 {
-  "name": "node",
+  "name": "myAnimelist",
   "version": "1.0.0",
-  "description": "Coursework project",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "node"
-  ],
-  "author": "Farangis T.",
-  "license": "MIT",
+  "keywords": [],
+  "author": "00014055",
+  "license": "ISC",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "express": "^4.18.2",
-    "pug": "^3.0.2"
+    "express-validator": "^6.15.0",
+    "pug": "^3.0.2",
+    "uniqid": "^5.4.0"
   }
 }

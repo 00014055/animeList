@@ -1,0 +1,32 @@
+extends layout.pug
+
+block content
+
+	if error
+		p Please fill the inputs
+
+	if deleted
+		p.success Deleted
+
+	if created
+		p.success Anime added
+
+	.section.flex 
+		.list
+			if animes
+				each anime in animes
+					a(href= anime.id) #{anime.name} / #{anime.date}
+						
+						button.btn.delete(href='/${ anime.id }') Delete
+						
+			else
+				p No any anime watched yet	
+
+		.detail
+			for anime in animes
+				p Name: #{anime.name} 
+				p Date: #{anime.date}
+				p Type: #{anime.type}
+				p Genres: #{anime.genres}
+				p Episodes: #{anime.episodes}
+				p Comment: #{anime.comment}
